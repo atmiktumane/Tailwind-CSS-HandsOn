@@ -10,13 +10,17 @@
 </head>
 <body>
     <div class="max-w-7xl m-auto">
-        <header class="h-16 border-b">
-            <div class="flex justify-between items-center py-2 mx-2">
+        <header class="h-28 md:h-16 border-b">
+            <!-- Header -->
+            <div class="flex flex-col md:flex-row justify-between items-center py-2 mx-2">
+                <!-- Logo -->
                 <div class="flex items-center">
                     <img class="w-12" src="./assets/images/logo.png" alt="learnTailwind">
                     <span class="ml-2 text-2xl">LearnTailwind</span>
                 </div>
-                <nav>
+
+                <!-- Nav -->
+                <nav class="max-md:my-2">
                     <span class="p-3 text-lg hover:bg-gray-400 hover:cursor-pointer hover:rounded">Home</span>
                     <span class="p-3 text-lg hover:bg-gray-400 hover:cursor-pointer hover:rounded">Products</span>
                     <span class="p-3 text-lg hover:bg-gray-400 hover:cursor-pointer hover:rounded">About Us</span>
@@ -27,8 +31,8 @@
         <main>
             <!-- Hero Section -->
             <section class="text-center py-20 bg-gray-400">
-                <h1 class="text-3xl">Lorem ipsum dolor sit</h1>
-                <p class="text-xl mt-2 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h1 class="max-md:text-2xl text-3xl">Lorem ipsum dolor sit</h1>
+                <p class="max-md:text-lg text-xl mt-2 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 <button class="bg-logo-700 hover:bg-logo-800 text-white text-lg outline outline-offset-2 outline-cyan-500 px-3 py-1 rounded">Know More</button>
             </section>
 
